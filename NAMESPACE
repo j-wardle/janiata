@@ -3,4 +3,5 @@
 export("%>%")
 export(import_iata)
 export(import_iata_multi_nat)
+export(od_matrix)
 importFrom(magrittr,"%>%")
