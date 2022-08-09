@@ -1,13 +1,13 @@
 #' Create O-D matrix from flight passenger numbers
 #'
 #' @param flight_data The dataframe containing the flight passenger numbers.
-#' @param month The month (or months) that the flight data used to construct
+#' @param flight_month The month (or months) that the flight data used to construct
 #' the O-D matrix should cover.
-#' @param year The year (or years) that the flight data used to construct
+#' @param flight_year The year (or years) that the flight data used to construct
 #' the O-D matrix should cover.
 #'
 #' @return Matrix in which each cell represents the probability that a person
-#' leaving the origing country (the rows of the matrix) flies to a given destination
+#' leaving the origin country (the rows of the matrix) flies to a given destination
 #' (the columns of the matrix).
 #' @export
 #'
